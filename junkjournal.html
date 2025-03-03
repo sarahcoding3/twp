@@ -2,99 +2,28 @@
 <html>
 	
 <head> 
+	<script src="https://kit.fontawesome.com/003a18d043.js" crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <title>Sarah's Junk Journal - Week 12</title>
 	<style>
 		
-		p {
-			color:black;
-		  }
 		
-		h2 {color:#9DA1A6;
-			text-align:center;
-			font-size:25px;
-		   }
-		h3 {
-			font-size:18px;
-	    	}
-		h1 {
-			color:#515B66;
-		
-		   }
-		
-		a:link {
- 		 color:#29959B;
-		text-decoration:underline;
-			}
-		a:hover {
-			text-decoration:underline;
-		    color:#C2C6C7;
-				}
-		a:visited {
-			color:#67717A;
-		}
-		
-		.wrapper {
-			background: white;
-			width: 1000px;
-			margin-left: auto;
-			margin-right:auto;
-			padding: 20px 40px;
-			     }
-		
-		.site-header {
-			background:#DFEBF8;
-			width:1000px;
-			text-align:center;
-					 }
-		
-		.page-header {
-			background:#EFF5FB;
-			width:500px;
-					 }
-		
-		body{
-			margin:0;
-			padding:0;
-			color:black;
-			background:#C0C4C5;
-			font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-			font-size:20px;
-			line-height:150%;
-			}
-		table,th,td 
-		{
-			border:1px solid;
-			width:100;
-			border-collapse:collapse;
-			tr:hover {background-color:#D8DBDB;}
-		}
-		
-		td {
-			width:15%;
-			height:40px;
-			text-align:center;
-		}
-	
-		th {
-			background-color:#C0C4C5;
-		}
-		images {
-			text-align:center;
-		}
 		
 	</style>
+<link rel="stylesheet" href="twp-css.css" type="text/css">
 </head>
 
 <body>
 	<div class ="wrapper">
 	<header class="site-header">
-		<a href="index.html" class="site-logo"> <img class="site-logo-image" src= "images/junkjournalcropped.png" width="300px" alt="Don't toss it yet"> </a>
+		
 		<nav class="sitenav">
-		<a href="twp-home.html">Latest</a> &nbsp; / &nbsp;
-		<a href="twp-archive.html">Archive</a> &nbsp; / &nbsp;
-		<a href="twp-theory.html">Theory</a> &nbsp; /&nbsp;
+		<a href="index.html" class="site-logo"> <img class="site-logo-image" src="images/please.svg" width="150px" alt="Don't toss it yet"> </a>
+		<a href="twp-home.html">Latest</a> 
+		<a href="twp-archive.html">Archive</a> 
+		<a href="twp-theory.html">Theory</a>
 		<a href="twp-about.html">About</a>
+			
 		</nav>
 	</header>
 		
@@ -138,25 +67,30 @@
 <p><a href="#">Return to top</a></p>
 	
 	<h2 id="sec-gallery"> Gallery</h2>
+<div class="gallery-grid">
+
+ 		<div class="gallery-item"><img src="images/box.jpg" width="264px" alt="A small cardboard box from Amazon">
+			<p> Amazon Prime Cardboard Box</p></div>
+		<div class="gallery-item"><img src="images/wrapper.jpg" width="264px">
+			<p>Plastic Wrapping</p></div>
+		<div class="gallery-item"><img src="images/coins.jpg" width="264px">
+			<p>Exactly $0.04 in change</p></div>
+		<div class="gallery-item"><img src="images/glue.jpg" width="264px">
+			<p>Courtesy eyelash glue</p></div>
+		<div class="gallery-item"><img src="images/speaker alt.jpg" width="264px">
+			<p>Blue shower speaker </p></div>
+		<div class="gallery-item"><img src="images/corrector.jpg" width="264px">
+			<p>Rilakkuma correction tape</p></div>
+		<div class="gallery-item"><img src="images/lotion.jpg" width="264px">
+			<p>Strawberry scented hand lotion</p></div>
+		<div class="gallery-item"><img src="images/nailpolish.jpg" width="264px">
+			<p>Pastel pink nail polish</p></div>
+		<div class="gallery-item"><img src="images/hairmask.jpg" width="264px">
+			<p>Hair mask</p></div>
+
+</div>
 	
-		<img src="images/box.jpg" width="264px" alt="A small cardboard box from Amazon">
-			<p> Amazon Prime Cardboard Box</p>
-		<img src="images/wrapper.jpg" width="264px">
-			<p>Plastic Wrapping for Oil-based Cleanser</p>
-		<img src="images/coins.jpg" width="264px">
-			<p>Exactly $0.04 in change</p>
-		<img src="images/glue.jpg" width="264px">
-			<p>Courtesy eyelash glue</p>
-		<img src="images/speaker alt.jpg" width="264px">
-			<p>Blue shower speaker </p>
-		<img src="images/corrector.jpg" width="264px">
-			<p>Rilakkuma correction tape</p>
-		<img src="images/lotion.jpg" width="264px">
-			<p>Strawberry scented hand lotion</p>
-		<img src="images/nailpolish.jpg" width="264px">
-			<p>Pastel pink nail polish</p>
-		<img src="images/hairmask.jpg" width="264px">
-			<p>Hair mask</p>
+		
 	
 <p><a href="#">Return to top</a></p>
 	
@@ -164,19 +98,20 @@
 	
 	<table>
 		<tr><th>Item</th><th> Weight</th><th> Source</th><th> Location</th><th> Cost</th><th> Owned</th><th> Mode</th></tr>
-		<tr><td>Cardboard box</td><td> light</td><td> Amazon</td><td> Mail room</td><td> $7.49</td><td> Less than a week</td><td> recycle</td></tr>
-		<tr><td>Plastic wrapping</td><td> light</td><td> Kose Softymo</td><td> In original packaging</td><td> $9.41</td><td> Less than a week</td><td> trash</td></tr>
-		<tr><td>pennies</td><td> light</td><td> transaction</td><td> desk</td><td> $0.04</td><td> Few months</td><td> trash</td></tr>
-		<tr><td>Eyelash glue</td><td> light</td><td> Amazon</td><td> Nightstand</td><td> $6.99</td><td> 3 months</td><td> trash</td></tr>
-		<tr><td>speaker</td><td> not light</td><td> Dad</td><td> Shower caddy</td><td> $35</td><td> 2.5 years</td><td> trash</td></tr>
-		<tr><td>Correction tape</td><td> light</td><td> Daiso</td><td> Pencil case</td><td> $1.50</td><td> 2 years</td><td> trash</td></tr>
-		<tr><td>lotion</td><td> light</td><td> Sister</td><td> Purse</td><td> $0.85</td><td> 1 month</td><td> trash</td></tr>
-		<tr><td>Hair mask</td><td> light</td><td> Sister</td><td> Shower caddy</td><td> $8.30</td><td> 1 year</td><td> trash</td></tr>
-		<tr><td>Nail polish</td><td> light</td><td> Sister</td><td> Desk</td><td> $5.99</td><td> 1 year</td><td> trash</td></tr>
-		<tr><td></td></tr>
+		<tr><td>Cardboard box</td><td> light</td><td> Amazon</td><td> Mail room</td><td> $7.49</td><td> Less than a week</td><td> <i class="fa-solid fa-recycle"></i></td></tr>
+		<tr><td>Plastic wrapping</td><td> light</td><td> Kose Softymo</td><td> In original packaging</td><td> $9.41</td><td> Less than a week</td><td> <i class="fa-solid fa-school-circle-exclamation"></i></td></tr>
+		<tr><td>pennies</td><td> light</td><td> transaction</td><td> desk</td><td> $0.04</td><td> Few months</td><td> <i class="fa-solid fa-sack-xmark"></i></td></tr>
+		<tr><td>Eyelash glue</td><td> light</td><td> Amazon</td><td> Nightstand</td><td> $6.99</td><td> 3 months</td><td> <i class="fa-solid fa-sack-xmark"></i></td></tr>
+		<tr><td>speaker</td><td> not light</td><td> Dad</td><td> Shower caddy</td><td> $35</td><td> 2.5 years</td><td> <i class="fa-solid fa-trash"></i></td></tr>
+		<tr><td>Correction tape</td><td> light</td><td> Daiso</td><td> Pencil case</td><td> $1.50</td><td> 2 years</td><td> <i class="fa-solid fa-school-circle-exclamation"></i></td></tr>
+		<tr><td>lotion</td><td> light</td><td> Sister</td><td> Purse</td><td> $0.85</td><td> 1 month</td><td> <i class="fa-solid fa-school-circle-exclamation"></i></td></tr>
+		<tr><td>Hair mask</td><td> light</td><td> Sister</td><td> Shower caddy</td><td> $8.30</td><td> 1 year</td><td> <i class="fa-solid fa-sack-xmark"></i></td></tr>
+		<tr><td>Nail polish</td><td> light</td><td> Sister</td><td> Desk</td><td> $5.99</td><td> 1 year</td><td> <i class="fa-solid fa-sack-xmark"></i></td></tr>
+		<tr></tr>
 </table>
 
-	
+<p> Legend: </p>
+	<p> <i class="fa-solid fa-recycle"></i> : recycled &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-school-circle-exclamation"></i> : school garbage &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-sack-xmark"></i> : home garbage &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-trash"></i> : outside garbage</p>
 	<h3> Lightest to heaviest</h3>
 	
 		<ol>
@@ -218,11 +153,16 @@
 	
 	<h2 id="sec-coda"> Coda</h2>
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you for following along with my trash of the week! As mentioned before, next week will probably include the cup sleeves from numerous matcha lattes as the semester starts to pick up. I appreciate the break from the monotonous food wrappers as this was a chance to see a little bit more of me through some landfill-bound reminiscing. Which was your favorite piece of trash? Did you throw away something I did? See you next time. </p>
-	
+		
+		<div class="profile">
+			<img src="images/profileimage.jpg" width="250px"> 
+			<p>Image credit: Salgolulu</p>
+		</div>
+
+		
 	<h3> About the author</h3>
 	<p>My name is Sarah and I've been journaling for as long as I remember. My earliest memories bring me to a composition book diary, the marbled cover hiding terrible handwritings of elementary school gossip. Over the years, I've experiemented with countless forms of journalling. Classic, bullet, and just using a planner were large journaling phases that I somewhat stuck with, until it lead me to junk journalling. By saving physical recipts, ticket stubs, and other ephemera, I glued them into a notebook to save these memories for later in a collage style. Here on this website, I'm yet again, experimenting with another type of journaling. Enjoy!</p>
-	<img src="images/profileimage.jpg">
-	<p>Image credit: Salgolulu</p>
+	
 	</div>
 </body>
 </html>
