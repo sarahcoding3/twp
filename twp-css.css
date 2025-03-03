@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+		p 			{color:black;  }
+		
+		h2 			{color:#9DA1A6;
+			
+					font-size:25px;}
+
+		h3 			{font-size:18px;}
+
+
+		h1 			{color:#515B66;
+text-align: center;}
+
+
+		body {
+   					 margin: 0;
+    				padding: 0;
+  					  color: #2a2a2a;
+   					 background: #A9B1B4;
+   						 font-family: verdana, helvetica, arial, sans-serif; /* replace with your choice of font-family list from Dreamweaver */
+   					 font-size: 18px;
+    				line-height: 150%;  /* adjust as needed */}
+
+		
+		a:link 		{color:#29959B; 
+					text-decoration:underline;}
+
+
+		a:hover 	{text-decoration:underline; 
+					color:#C2C6C7;}
+
+
+		a:visited 	{color:#67717A;}
+
+		
+		.wrapper 	{background: white;
+			  	 	width: 1000px;
+					margin-left: auto;
+					margin-right:auto;
+					padding: 20px 40px; }
+		
+		.site-header{background:#DFEBF8;
+					width:1000px;
+					text-align:center;}
+		
+		.page-header {background:white;
+			text-align: center;
+				 }
+		
+		border    	{margin:0;
+					padding:0;
+					color:black;
+					background:#C0C4C5;
+					font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+					font-size:20px;
+					line-height:150%;}
+
+		table,th,td {border:1px solid;
+					width:100;
+					border-collapse:collapse;}
+
+		tr:hover {background-color:#D8DBDB;}
+		
+		td 			{width:15%;
+					height:40px;
+					text-align:center;}
+	
+		th 
+				{background-color:#C0C4C5;}
+
+		images 
+				{text-align:center;}
+		.profile p {
+			font-size: small;
+		}
+  		.gallery-grid {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-row-gap: 20px ;
+            justify-items: center;
+            align-items: start;
+            justify-content: space-between;
+        }
+
+     .sitenav {
+	     display: grid;
+	     grid-template-columns: repeat(6, 1fr);
+	     grid-row-gap: 0px;
+	     justify-items: start;
+	     align-items: center;
+	     justify-content: space-between;
+	     background:#DFEBF8;
+	  }
+		
+	.sitenav a {
+	     justify-self: center;
+	     color: #515B66;
+	     background:#DFEBF8;	
+	     text-decoration: none;
+	     border-radius: 50%;
+	     padding: 0px 28px;
+	
+	  }
+		
+	.sitenav a:hover {
+	     color: #515B66;
+	     background: #BCD5F0;	
+	  }
