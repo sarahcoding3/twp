@@ -1,38 +1,52 @@
 @charset "utf-8";
 /* CSS Document */
 
-		p 			{color:black;  }
+		p 			{color:black;
+					font-size:20px;
+					font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+					line-height:30px;
+					}
 		
-		h2 			{color:#9DA1A6;
-			
-					font-size:25px;}
+		h2 			{color:#9eb2db;
+					font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+					line-height:30px;
+					font-size:35px;}
 
-		h3 			{font-size:18px;}
+		h3 			{color:black;
+					font-size:25px;
+					font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+					line-height:30px;
+		
+}
 
 
-		h1 			{color:#515B66;
-text-align: center;}
+		h1 			{color:#7f9aca;
+					font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+					line-height:30px;
+					text-align: center;
+					font-size:40px;}
 
 
 		body {
    					 margin: 0;
     				padding: 0;
   					  color: #2a2a2a;
-   					 background: #A9B1B4;
+   					 background: #edd8ca;
    						 font-family: verdana, helvetica, arial, sans-serif; /* replace with your choice of font-family list from Dreamweaver */
    					 font-size: 18px;
     				line-height: 150%;  /* adjust as needed */}
 
 		
-		a:link 		{color:#29959B; 
+		a:link 		{color:orange; 
 					text-decoration:underline;}
 
 
-		a:hover 	{text-decoration:underline; 
-					color:#C2C6C7;}
+		a:hover 	{text-decoration:none;
+			color:red;
+				}
 
 
-		a:visited 	{color:#67717A;}
+		a:visited 	{color:orangered;}
 
 		
 		.wrapper 	{background: white;
@@ -41,7 +55,7 @@ text-align: center;}
 					margin-right:auto;
 					padding: 20px 40px; }
 		
-		.site-header{background:#DFEBF8;
+		.site-header{background:#cad9ee;
 					width:1000px;
 					text-align:center;}
 		
@@ -68,7 +82,8 @@ text-align: center;}
 					text-align:center;}
 	
 		th 
-				{background-color:#C0C4C5;}
+				{background-color:#ccdbec;
+text-align:left;}
 
 		images 
 				{text-align:center;}
@@ -99,12 +114,27 @@ text-align: center;}
 	     color: #515B66;
 	     background:#DFEBF8;	
 	     text-decoration: none;
-	     border-radius: 50%;
+	     border-radius: 20px;
+		border:1px solid;
 	     padding: 0px 28px;
 	
 	  }
-		
+
 	.sitenav a:hover {
-	     color: #515B66;
+	     color: #7f9aca;
 	     background: #BCD5F0;	
 	  }
+i{color: #84b5f7;}
+.method-key { font-size:70%}
+
+.method-key i:first-child {
+	margin-left:0;
+}
+
+.page-header {
+	background:#edd8ca;
+	color:white;}
+.page-header a {text-decoration:none;}
+.page-header a:hover {color:white;}
+.page-header a {color:orange;}
+}
